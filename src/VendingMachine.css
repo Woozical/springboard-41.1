@@ -1,0 +1,38 @@
+.VendingMachine{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 600px;
+  background-color: #f5f6e8;
+  background-image: url("./media/vending_machine_generated.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.VendingMachine h1{
+  text-decoration: underline;
+}
+
+.VendingMachine-selection{
+  width: 400px;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+}
+
+.VendingMachine-selection a{
+  background-color: white;
+  margin: 10px;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  border-radius: 15px;
+}
+
+.VendingMachine-content{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 95%;
+  height: 80%;
+}
